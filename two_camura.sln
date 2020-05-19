@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C315DF88-EB9E-44C4-9EA8-59E08D2AE4DE}"
+	ProjectSection(SolutionItems) = preProject
+		menu.html = menu.html
+		news.html = news.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11EE295E-9944-430C-A83B-9AFDBD5D7467}
+	EndGlobalSection
+EndGlobal
