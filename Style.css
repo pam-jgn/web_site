@@ -125,16 +125,10 @@ footer p{
 }
 
 article{
-    width: 60%;
-    order: 2;
+    width: 74%;
 }
 aside{
     width: 22%;
-    order: 3;
-}
-
-.ad{
-    order: 1;
 }
 
 .news-contens{
@@ -150,7 +144,7 @@ aside{
 }
 
 .post-date{
-    background: #0bd;
+    background: #ff6a00;
     border-radius: 50%;
     color: #fff;
     width: 100px;
@@ -193,7 +187,7 @@ article p{
 .sub-title{
     font-size: 1.375rem;
     padding: 0 8px 8px;
-    border-bottom: 2px #0bd solid;
+    border-bottom: 2px #ff6a00 solid;
     font-weight: normal;
 }
 
