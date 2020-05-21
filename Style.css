@@ -84,7 +84,7 @@ img {
 
 /*見出し*/
 .page-title {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Philosopher', serif;
     text-transform: uppercase;
     font-weight: normal;
@@ -313,7 +313,7 @@ aside p{
 }
 
 #menu{
-    background-image: url(images/パイ4.jpg);
+    background-image: url(images/パイ3.jpg);
     min-height: 100vh;
 }
 .menu-content{
@@ -328,7 +328,7 @@ aside p{
 .menu-content p{
     font-size: 1.125rem;
     margin: 10px 0 0;
-    color: #000000;
+    color: #fff;
 }
 
 .grid{
@@ -351,11 +351,11 @@ aside p{
 }
 
 #menu a{
-    color: #000000;
+    color: #fff;
 }
 
 #menu a:hover {
-    color: #0090aa;
+    color: #ff6a00;
 }
 
 #contact{
@@ -443,3 +443,17 @@ iframe{
 .sns-box{
     width: 30%;
 }
+
+
+/*about*/
+#about {
+    background-image: url(images/cafe.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+    #about .page-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+
