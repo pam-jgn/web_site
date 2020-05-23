@@ -87,7 +87,6 @@ img {
 .page-title {
     font-size: 5rem;
     font-family: 'Philosopher', serif;
-    text-transform: uppercase;
     font-weight: normal;
     color: #fff;
 }
@@ -463,13 +462,24 @@ iframe{
     display: grid;
     grid-gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    margin-top: 6%;
     margin-bottom: 50px;
 }
 
-.about-contens p{
-    margin-left: 120px;
-    margin-bottom: 10px;
+.about-title {
+    font-family: "Yu Mincho", "YuMincho", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+
+.about-contens p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
 
 
