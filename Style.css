@@ -107,7 +107,7 @@ img {
  */
 
 #news {
-    background-image: url(images/パイ8.jpg);
+    background-image: url(images/パイ6.jpg);
     height: 270px;
     margin-bottom: 40px;
 }
@@ -138,6 +138,10 @@ aside{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+}
+
+.new_menu{
+    margin-top: 70px
 }
 
 .post-info{
@@ -204,7 +208,7 @@ aside p{
 }
 
 .sub-menu li{
-    border-bottom: 1px #ddd solid
+    border-bottom: 1px #808080 solid
 }
 
 .sub-menu a{
@@ -315,7 +319,7 @@ aside p{
 }
 
 #menu{
-    background-image: url(images/パイ3.jpg);
+    background-image: url(images/パイ16.jpg);
     min-height: 100vh;
 }
 .menu-content{
