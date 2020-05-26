@@ -92,19 +92,19 @@ img {
 }
 
 /*ボタン*/
-/*
 .button {
     font-size: 1.375rem;
-    background: #413f3f;
+    background: #0bd;
     color: #fff;
     border-radius: 5px;
     padding: 18px 32px;
+    margin-bottom: 40px;
 }
 
 .button:hover {
     background: #ff6a00;
 }
- */
+ 
 
 #news {
     background-image: url(images/パイ6.jpg);
@@ -393,7 +393,7 @@ input[type="text"], input[type="email"]{
 }
 
 textarea{
-    width: 100%;
+    width: 50%;
     max-height: 480px;
    height: 6rem;
 }
