@@ -364,8 +364,30 @@ aside p{
     color: #ff6a00;
 }
 
-#contact{
-    background-image: url(images/wall.jpg);
+
+/*ACCESS/CONTACT*/
+#contact {
+    background-image: url(images/cafe_out.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+#contact .page-title {
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+.access-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Philosopher', serif;
+    border-bottom: 3px #000000 solid;
+    margin-left:440px;
+    margin-right: 440px;
 }
 
 form div{
@@ -405,14 +427,14 @@ input[type="submit"]{
 }
 
 /*店舗情報・地図*/
-#location{
+/*#location{
     padding: 4% 0;
-}
+}*/
 
-#location .wrapper{
+/*#location .wrapper{
     display: flex;
     justify-content: space-between;
-}
+}*/
 
 .location-info{
     width: 22%;
@@ -431,24 +453,6 @@ iframe{
     width: 100%
 }
 
-/*SNS*/
-#sns {
-    background: #FAF7F0;
-    padding: 4% 0;
-}
-
-#sns .wrapper{
-    display: flex;
-    justify-content: space-between;
-}
-
-#sns .sub-title{
-    margin-bottom: 30px;
-}
-
-.sns-box{
-    width: 30%;
-}
 
 
 /*about*/
