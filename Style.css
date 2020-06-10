@@ -401,6 +401,38 @@ aside p{
     margin-bottom: 40px;
 }
 
+
+.contact-info{
+    display: flex;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-bottom: 50px;
+}
+
+.category {
+    margin-left: 30px;
+    width: 70px;
+    height: 30px;
+    background-color: #ff0000;
+}
+
+.category p{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding-top:2px;
+}
+
+.tell-addless{
+    margin-left: 40px;
+}
+
+.tell-addless p{
+    font-weight: bold;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
 form div{
     margin-bottom: 14px;
 }
@@ -409,7 +441,7 @@ label{
     font-size: 1.125rem;
     margin-bottom: 10px;
     display: block;
-    color: #fff;
+    color: #000000;
 }
 
 input[type="text"], input[type="email"], textarea{
@@ -460,6 +492,7 @@ input[type="submit"]{
 .location-map{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 110px;
 }
 
 /*iframe*/
