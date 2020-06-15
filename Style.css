@@ -94,7 +94,7 @@ img {
 /*ボタン*/
 .button {
     font-size: 1.375rem;
-    background: #0bd;
+    background: #ff6a00;
     color: #fff;
     border-radius: 5px;
     padding: 18px 32px;
@@ -405,7 +405,6 @@ aside p{
 .contact-info{
     display: flex;
     margin-left: 37%;
-    margin-right: 37%;
     margin-bottom: 50px;
 }
 
@@ -460,7 +459,7 @@ input[type="text"], input[type="email"]{
 textarea{
     width: 50%;
     max-height: 480px;
-   height: 6rem;
+    height: 6rem;
 }
 
 input[type="submit"]{
