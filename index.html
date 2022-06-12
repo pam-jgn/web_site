@@ -7,11 +7,18 @@
     <meta name="description" content="パイ専門店が提供するカフェ">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p|Noto+Serif+JP&display=swap" rel="stylesheet">
-    <link href="Style.css" rel="stylesheet">
+    <link href="css/Style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="images/pi_icon.png" />
 </head>
+
 <body>
     <div id="home" class="big-bg">
+        <div id="splash">
+            <div id="splash_logo">
+                <img src="images/pi_icon.png" alt="" class="fadeUp">
+                <h1 class="fadeUp">Loading...</h1>
+            </div>"
+        </div>
         <header class="page-header wrapper">
             <h1><a href="index.html"><img class="logo" src="images/logo2.png" alt="カフェホーム"></a></h1>
             <nav>
@@ -26,8 +33,11 @@
         <div class="home-content wrapper">
             <h2 class="page-title">Pie specialty store</h2>
             <p>パイ専門店が提供するカフェ</p>
-<!--            <a class="button" href="menu.html">メニューを見る</a>-->
+            <!--            <a class="button" href="menu.html">メニューを見る</a>-->
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <script src="js/loading.js"></script>
 </body>
 </html>
