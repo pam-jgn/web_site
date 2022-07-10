@@ -191,7 +191,13 @@ article p{
     margin-bottom: 1rem;
 }
 
-.sub-title{
+#sub-area {
+    position: -webkit-sticky;
+    position: sticky;
+    top:100px;
+}
+
+.sub-title {
     font-size: 1.375rem;
     padding: 0 8px 8px;
     border-bottom: 2px #ff6a00 solid;
@@ -297,6 +303,11 @@ aside p{
 
     .big-box img{
         height: 100%;
+    }
+
+    #sub-area {
+        position: relative;
+        top: 0;
     }
 
     /*contact*/
